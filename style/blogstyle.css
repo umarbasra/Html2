@@ -1,0 +1,294 @@
+*
+{
+margin:0;
+padding:0;
+outline:none;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box; 
+}
+:after, :before
+{
+margin:0;
+padding:0;
+outline:none;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+::-webkit-search-cancel-button {
+display: none;
+}
+a
+{
+text-decoration:none;
+transition:all .5s linear;
+-webkit-transition:all .5s linear;
+-moz-transition:all .5s linear;
+-o-transition:all .5s linear;
+-ms-transition:all .5s linear;
+}
+img{
+max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;}*/}*/}*/
+}
+
+.bar{
+	width: 100%;
+	display: inline-block;
+}
+.bar ul{
+	width: 100%;
+	display: inline-block;
+	list-style-type: none;
+	background-color: black;
+	float: left;
+}
+.bar li{
+	width: 4%;
+	float: left;
+	display: inline-block; 
+}
+.bar li a{
+	width: 100%;
+	text-align: center;
+	text-decoration:none;
+	color: white;
+	display: inline-block;
+	padding:14px 0px;
+}
+.bar li  a:hover{
+	background-color: #fff;
+	color: black;
+}
+.head{
+	text-align: center;
+}
+.head p{
+	margin-top: 30px;
+}
+.head p span{
+	padding: 4px 4px;
+	background-color: black;
+	color: white;
+}
+.img{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.blog{
+	position: absolute;
+	top: 40%;
+	bottom: 40%;
+}
+.blog button{
+	background-color: #fff;
+	color: black;
+	text-align: center;
+	padding: 10px 10px;
+}
+.blog button:hover{
+	background-color: black;
+	color:white;
+}
+.main{
+	width: 100%;	
+}
+.title{
+	width: 65%;
+	text-align: center;
+	float:left;	
+
+}
+.article{
+	width: 35%;
+	float: right;
+	padding-bottom: 40px;
+}
+.name{
+	position: relative;
+	font-family:Arial;
+
+}
+.universe{
+	position: absolute;
+	background-color: black;
+	color: white;
+	bottom: 20px;
+  	right: 20px;
+  	left: 20px;
+
+}
+.post h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 20px 20px ;
+}
+.post ul{
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+}
+.post ul li{
+	width: 100%;
+	text-decoration: none;
+	display: inline-block;
+
+}
+.post ul li:hover{
+	background-color: #cccccc;
+	color: black;
+}
+.advertise h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 50px 20px 20px 20px;
+}
+.ad{
+	background-color: #f1f1f1;
+	color: black;
+	text-align: center;	
+	padding: 100px 100px;
+	margin: 20px 20px;
+}
+.tag h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 50px 20px 20px 20px;
+}
+.tag p{
+	margin: 20px 20px;
+}
+.tag p span{
+	background-color:#f1f1f1;
+	color: black;
+	text-align: center;
+	padding: 3px 3px; 
+	margin: 10px 5px;
+}
+.black{
+	background-color: black;
+	color: white;
+}
+.inspire h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 50px 20px 20px 20px;
+}
+.jean{
+	width: 100%;
+	text-align: center;
+}
+.jean tbody tr td{
+	width: 50%;
+	padding: 20px 20px;
+	margin: 10px 10px;
+}
+.follow h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 50px 20px 20px 20px;
+}
+.follow span{
+	margin: 20px 30px;
+	font-size: 30px;
+}
+.follow span a{
+	color: black;	
+}
+.follow span a:hover{
+	opacity: 0.5;
+}
+.sub h3{
+	background-color: black;
+	color: white;
+	width: 93%;
+	padding: 20px 20px;
+	margin: 50px 20px 20px 20px;
+}
+.sub p {
+	text-align: center;
+	font-size: 15px;
+}
+.sub input{
+	width: 93%;
+	padding: 10px 10px;
+	margin: 20px 20px;
+}
+.sub button{
+	width: 93%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 14px 0px;
+	margin: 20px 20px;
+}
+.sub button:hover{
+	background-color:#cccccc;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h2{
+	margin-top: 30px;
+}
+.p{
+	margin-top: 15px;
+
+}
+.hat p{
+	text-align: justify;
+	padding: 17px 17px;
+}
+.like{
+	float: left;
+	padding: 10px 25px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin: 14px  ;
+}
+.like:hover{
+	background-color: #cccccc;
+	color: black;
+}
+.reply{
+	float: right;
+	padding:10px 10px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-right: 14px;
+}
+.reply:hover{
+	background-color:#cccccc;
+	color: black;
+}
+.boy{
+	margin-top: 100px;
+}
